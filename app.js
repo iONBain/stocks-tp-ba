@@ -39,9 +39,11 @@ function calcProfitOrLoss(){
         // console.log("working")
     }
     else if((initialValue) === "" || (quantValue) === "" || (currentValue) === "" ){
+        classRemover();
         output.innerText = `One of the fields is not populated.`
     }
     else{
+        classRemover();
         output.innerText = `Please Enter Valid Values`
         
     }

@@ -19,7 +19,7 @@ function calcProfitOrLoss(){
     if(initialValue>0 && quantValue>0 && currentValue>0){
         var valuee = (currentValue-initialValue)*quantValue
         var percentagee = (valuee*100)/initialValue
-        var percentageeFixed = Math.abs(percentagee.toFixed(2));
+        var percentageeFixed = Math.abs(percentagee.toFixed(2))/quantValue;
         var valueFixed = Math.abs( valuee.toFixed(2));
         if(valuee>0){
             classRemover();

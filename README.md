@@ -13,8 +13,6 @@ Here are a few project-related insight pictures:
 ![output2](./images/output2.png)
 4. Case3: "No Profit No Loss"- Entering the input details and checking the profit/loss
 ![output3](./images/output3.png)
-5. Refreshed page (Same as Landing, cleared all the imputs)
-![refreshed](./images/refreshed.png)
 
 > Technologies/Libraries used :-
 * Vanilla Javascript
